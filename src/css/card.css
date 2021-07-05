@@ -29,6 +29,8 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    object-fit: cover;
+    max-width: 100%;
     top: -50px;
     left: calc(50% - 50px);
     border: 5px solid white;
