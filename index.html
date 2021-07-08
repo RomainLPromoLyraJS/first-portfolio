@@ -5,15 +5,15 @@
         <meta charset="utf-8"/>
         <meta name="author" content="Romain Lafosse"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé(e) en ReactJS actuellement dans la ville d' Annecy, France."/>
+        <meta name="description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé en ReactJS actuellement dans la ville d' Annecy, France."/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Développeur fullstack en recherche d'emploi - Romain Lafosse"/>
         <meta property="og:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
-        <meta property="og:description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé(e) en ReactJS actuellement dans la ville d' Annecy, France."/>
+        <meta property="og:description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé en ReactJS actuellement dans la ville d' Annecy, France."/>
         <meta name="twitter:title" content="Développeur fullstack en recherche d'emploi - Romain Lafosse"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
-        <meta name="twitter:description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé(e) en ReactJS actuellement dans la ville d' Annecy, France."/>
+        <meta name="twitter:description" content="Hello ! Bienvenue sur mon portfolio. Mon nom est Romain, spécialisé en ReactJS actuellement dans la ville d' Annecy, France."/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/css/base.css"/>
@@ -32,9 +32,9 @@
                 <section>
                     <h1 id="person-fullname">Romain LAFOSSE</h1>
                     <h2 id="person-job">Développeur Fullstack JS</h2>
-                    <p>Hello ! Bienvenue sur mon portfolio. Mon nom est <strong id="person-firstname">Romain</strong>, <strong id="person-position"></strong> spécialisé(e) en <strong id="person-speciality">ReactJS</strong> actuellement <strong id="person-company"></strong> dans la ville d' <strong id="person-city">Annecy</strong>.</p>
+                    <p>Hello ! Bienvenue sur mon portfolio. Mon nom est <strong id="person-firstname">Romain</strong>, développeur fullstack <strong id="person-position"></strong> spécialisé en <strong id="person-speciality">ReactJS</strong> actuellement en recherche d'emploi dans la ville d' <strong id="person-city">Annecy</strong>, en France.</p>
                     <div>
-                        <a class="button" target="_blank" id="person-email">M'envoyer un email</a>
+                        <a class="button" target="_blank" id="person-email" href="mailto:romain75l@gmail.com">M'envoyer un email</a>
                         <span class="or"> ou </span>
                         <a target="_blank" class="button" href="src/img/CV Développeur Web Javascript Fullstack 2021 - Romain Lafosse.pdf">Voir mon CV</a>
                     </div>
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(src/img/logos/outsiders.png)"></div>
+                        <div class="thumbnail-cover" style="background-color: white"><img id="thumbnail-img" src="src/img/logos/outsiders.png" alt=""></div>
                         <div class="thumbnail-content">
                             <span class="badge">Site Web</span>
                             <p class="thumbnail-title">Outsiders</p>
@@ -164,13 +164,46 @@
                         </div>
                     </div>
                     <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?shop)"></div>
+                        <div class="thumbnail-cover" style="background-image: url(src/img/logos/computer.jpg)"></div>
                         <div class="thumbnail-content">
                             <span class="badge">Blog</span>
-                            <p class="thumbnail-title">Arrêtes ton cinéma !</p>
-                            <p class="thumbnail-description">Un blog de critiques cinés mis à jour régulièrement. Créé avec ReactJS.</p>
+                            <p class="thumbnail-title">Dans la peau d'un dev junior</p>
+                            <p class="thumbnail-description">Un blog racontant le quotidien d'un développeur junior mis à jour régulièrement.</p>
                             <div class="thumbnail-footer">
-                                <a id="thumbnail-progress" href="google.fr" target="_blank">En cours de création</a>
+                                <a class="thumbnail-progress" href="google.fr" target="_blank">En cours de création</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(src/img/logos/mario.jpg)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Two levels of Mario Bros</p>
+                            <p class="thumbnail-description">Deux niveaux du jeu super mario bros codé en Javascript.</p>
+                            <div class="thumbnail-footer">
+                                <a class="thumbnail-progress" href="google.fr" target="_blank">En cours de création</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(src/img/logos/netflix.jpg)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">NetFix</p>
+                            <p class="thumbnail-description">Recréer une clone de l'application Netflix avec son API.</p>
+                            <div class="thumbnail-footer">
+                                <a class="thumbnail-progress" href="google.fr" target="_blank">En cours de création</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(src/img/logos/spotify.jpg)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">SpotLify</p>
+                            <p class="thumbnail-description">Recréer un clone l'application spotify à l'aide de son API.</p>
+                            <div class="thumbnail-footer">
+                                <a class="thumbnail-progress" href="google.fr" target="_blank">En cours de création</a>
                             </div>
                         </div>
                     </div>
@@ -205,6 +238,6 @@
                 </div>
             </section>
         </div>
-        <script src="./src/js/main.js"></script>
+        <!-- <script src="./src/js/main.js"></script> -->
     </body>
 </html>

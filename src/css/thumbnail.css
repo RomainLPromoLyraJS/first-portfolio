@@ -19,7 +19,13 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
-    object-fit: contain;
+}
+
+#thumbnail-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 0.5em;
 }
 
 .thumbnail .thumbnail-content {
@@ -84,7 +90,7 @@
     line-height: 20px;
 }
 
-.thumbnail-footer a{
+.thumbnail-footer a {
     display: inline-block;
     background: #3498db;
     color: white;
@@ -95,7 +101,7 @@
     font-weight: 500;
 }
 
-#thumbnail-progress {
+.thumbnail-footer .thumbnail-progress {
     background-color: rgb(209, 9, 9);
 }
 
